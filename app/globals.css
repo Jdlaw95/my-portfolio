@@ -477,7 +477,9 @@ footer p {
   section { padding: 80px 24px; }
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
   .about-photo-frame::before { display: none; }
-  .proj { grid-template-columns: 40px 1fr; gap: 0 20px; }
+  .proj { display: flex; flex-direction: column; gap: 6px }
+  .proj-num { text-align: left; }
+  .proj-desc { width: 100%; }
   .proj-tags, .proj-year { display: none; }
   .exp-item { grid-template-columns: 1fr; gap: 8px; }
   .contact-grid { grid-template-columns: 1fr 1fr; }
