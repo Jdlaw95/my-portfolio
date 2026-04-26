@@ -29,7 +29,15 @@ const projects = [
     cat: 'Web — Client Work',
     desc: 'Production website for a Cape Town construction business. Static blog, WhatsApp and Facebook contact integration, navy/gold brand identity. Resolved pnpm supply chain trust issue mid-build.',
     tags: ['Next.js 15', 'pnpm', 'Tailwind CSS', 'Vercel'],
-    year: '2025',
+    year: '2026',
+  },
+  {
+    num: '05',
+    name: 'GlitterGlow by Kris',
+    cat: 'Web — Client Work',
+    desc: 'Full-stack booking and business management platform for a Cape Town nail salon. Multi-step booking form with real-time availablity, PayFast deposit payments, automated confirmation emails, and Google Calendar sync. Admin dashboard with live bookings, clent records,revenue stats, and PDF invoice generation. All business settings editable without touching code.',
+    tags: ['Next.js 16', 'TypeScript', 'Supabase', 'Vercel', 'PayFast', 'Resend', 'Google Calendar API',],
+    year: '2026',
   },
 ]
 
