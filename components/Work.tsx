@@ -39,6 +39,14 @@ const projects = [
     tags: ['Next.js 16', 'TypeScript', 'Supabase', 'Vercel', 'PayFast', 'Resend', 'Google Calendar API',],
     year: '2026',
   },
+  {
+    num: '06',
+    name: 'BinFresh',
+    cat: 'Web — Client Work',
+    desc: 'Full-stack booking platform for a Cape Town bin cleaning business. Customers submit booking requests that land in a Supabase database. The owner manages all bookings through a custom admin dashboard — approving or declining requests — which triggers automated confirmation emails to customers via Resend. Built to replace a manual WhatsApp-only workflow.',
+    tags: ['Next.js', 'Supabase', 'Resend', 'Tailwind'],
+    year: '2026',
+  },
 ]
 
 export default function Work() {
